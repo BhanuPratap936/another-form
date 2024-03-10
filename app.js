@@ -37,10 +37,7 @@ app.post('/api/form', async(req, res) => {
         
 const { name, email, phoneNumber, services, message } = req.body;
  
-  // Validate the form data
-//   if (!name || !dob || !gender || !hobbies || hobbies.length < 2 || !state || !address || !resume) {
-//     return res.status(400).json({ error: 'Invalid form data' });
-//   }
+  
 
   const formData = new FormData({
     name,	
