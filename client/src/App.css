@@ -20,7 +20,7 @@ label {
 
 /* Styling input fields */
 input[type="text"],
-input[type="date"],
+input[type="email"],
 textarea,
 select,
 input[type="file"] {
